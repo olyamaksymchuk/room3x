@@ -1,0 +1,90 @@
+.container {
+    padding: 0 15px;
+
+    @media screen and (min-width:414px) {
+        width: 414px;
+        margin: 0 auto;
+    }
+    
+    @media screen and (min-width: 1024px) {
+        padding: 0 47px;
+        width: 1024px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        padding: 0 85px;
+       width: 1280px;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width:414px) {
+.room__service {
+    display: flex;
+    flex-flow: column;
+}
+    
+}
+@media screen and (min-width:1024px) {
+    .room__service {
+    display: flex;
+    flex-direction: row;
+    }
+}
+
+
+.button-room__details {
+    padding: 14px 65px 14px 64px;
+    background-color: #000000;
+        color: #F3C653;
+        display: inline-block;
+        width: 236px;
+        height: 48px;
+        border-radius: 25px;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.25;
+        letter-spacing: 0.02em;
+        margin-bottom: 16px;
+}
+
+.button-room__price {
+    background-color: #000000;
+    color: #F3C653;
+    display: inline-block;
+    width: 236px;
+    height: 48px;
+    border-radius: 25px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    padding: 14px 37px;
+
+}

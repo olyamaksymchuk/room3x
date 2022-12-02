@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-     <link rel="stylesheet" href="./main.scss" />
+     <link rel="stylesheet" href="./css/styles.css" />
      </head>
   <body>
     <section class="room">
@@ -35,7 +35,7 @@
             <source
               media="(min-width:1280px)"
               srcset="
-                ./src/images/hotel_img\bedroom_desk@1x.jpg 1x,
+                ./src/images/hotel_img/bedroom_desk@1x.jpg 1x,
                 ./src/images/hotel_img/bedroom_desk@2x.jpg 2x
               "
               type="image/jpg"
@@ -45,8 +45,8 @@
             <source
               media="(min-width:1024px)"
               srcset="
-                ./src/images/hotel_img/bedroom_tab@1x_result.webp    1x,
-                ./src/images/hotel_img/bedroom_tab@2x_result.webp.2x
+                ./src/images/hotel_img/bedroom_tab@1x_result.webp 1x,
+                ./src/images/hotel_img/bedroom_tab@2x_result.webp 2x
               "
               type="image/webp"
             />
@@ -468,11 +468,13 @@
             </picture>
           </ul>
           <h2 class="visually-hidden">список кнопок</h2>
-          <ul class="room__buttons">
-            <li><a href="Room Page" class="detail__button">детальніше</a></li>
-            <li>
-              <button type="button" class="price__button">
-                переглянути ціни
+          <ul class="buttom-room__list list">
+            <li class="buttom-room__item">
+                <button type="button" class="button-room__details">Детальніше</button>
+            </li>
+            <li class="buttom-room__item">
+              <button type="button" class="button-room__price">
+                Переглянути ціни
               </button>
             </li>
           </ul>
