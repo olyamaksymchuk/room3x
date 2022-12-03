@@ -64,10 +64,15 @@ h6 {
 
 .room {
     background-color: #F0ECD6; 
+
 }
 
 
 @media screen and (min-width:414px) {
+
+.container-room {
+    padding: 32px 15px;
+}
     
 .logo_text {
     font-family: 'Times New Roman';
@@ -129,20 +134,79 @@ h6 {
     
 }
 @media screen and (min-width:1024px) {
+.container-room {
+    padding-left: 47px;
+    padding-right: 47px;
+}
+
     .room__service {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
+    justify-content: space-between;
     }
+
+.logo_text {
+    padding-top: 66px;
+    margin-bottom: 4px;
+    font-size: 32px;}
+
+.logo_title {
+    font-size: 64px;
+    margin-bottom: 62px;
+}
+.room_title {
+font-size: 30px;
+letter-spacing: 0.05em;
+margin-bottom: 16px;
 }
 
-    @media screen and (min-width:1280px) {
-        .room__service {
-            flex-direction: row-reverse;
+.room_text {
+        font-size: 12px;
+        line-height: 1.25;
+        letter-spacing: 0.02em;
+        color: #5F5F5F;
+        text-align: left;
+        margin-left: 45px;
+        width: 400px;
+        margin-bottom: 169px;
+        display: block;
+        margin-left: auto;
+}
+}
+
+
+@media screen and (min-width: 1280px) {
+    .container-room {
+        padding-left: 85px;
+        padding-right: 85px;
+    }
+
+    .logo_text {
+            padding-top: 72px;
         }
-
-
+    
+        .logo_title {
+            margin-bottom: 72px;
+        }
+    
+        .room_title {
+            font-size: 36px;
+            margin-bottom: 24px;
+        }
+    
+        .room_text {
+            font-size: 16px;
+            line-height: 1.25;
+            letter-spacing: 0.02em;
+            color: #5F5F5F;
+            text-align: left;
+            margin-left: 45px;
+            width: 400px;
+            margin-bottom: 188px;
+            display: block;
+            margin-left: auto;
+        }
 }
-
 
 .button-room__details {
     padding: 14px 65px 14px 64px;
